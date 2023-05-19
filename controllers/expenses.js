@@ -26,7 +26,7 @@ exports.postExpenses = (req,res,next)=>{
     .catch(err=>{
         console.log(err);
     })
-}
+} 
 
 exports.deleteExpenses = (req,res,next)=>{
     const Id = req.params.id;
